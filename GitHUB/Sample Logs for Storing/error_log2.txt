@@ -1,0 +1,7 @@
+Failed to execute command: powershell -Command "$uptime = (Get-Date) - (Get-CimInstance -ClassName Win32_OperatingSystem).LastBootUpTime; "System Uptime: $uptime""
+Failed to execute command: powershell -Command "secedit /export /cfg C:\Data\local_security_policies.cfg"
+Failed to execute command: powershell -Command "Get-WinEvent -LogName Security -FilterXPath "*[System[(EventID=4740)]]" | ConvertTo-Json"
+Failed to execute command: powershell -Command "$uptime = (Get-Date) - (Get-CimInstance -ClassName Win32_OperatingSystem).LastBootUpTime; "System Uptime: $uptime""
+Failed to execute command: powershell -Command "secedit /export /cfg C:\Data\local_security_policies.cfg"
+Failed to execute command: powershell -Command "Get-WinEvent -LogName Security -FilterXPath "*[System[(EventID=4740)]]" | ConvertTo-Json"
+Failed to execute command: powershell -Command "Get-Counter -Counter \"\Memory\Available MBytes\" -SampleInterval 5 -MaxSamples 10 | ConvertTo-Json"
