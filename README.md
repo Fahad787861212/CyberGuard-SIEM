@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the CyberGuard SIEM Solution repository! This project is part of a specialized initiative I've undertaken as a cybersecurity enthusiast aiming to develop a robust Security Information and Event Management (SIEM) system. 
+Welcome to the CyberGuard SIEM Solution repository! This project is part of a specialized initiative I've undertaken as a cybersecurity enthusiast aiming to develop a robust backend for a Security Information and Event Management (SIEM) system, intended to be integrated with a frontend and lightweight agents. 
 
 ### What is SIEM?
 
